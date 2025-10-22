@@ -1,0 +1,169 @@
+{
+"summary":{
+  "body": "Motivated Computer Science student and entry-level Full-Stack Developer with a solid programming foundation gained through intensive academic training. Skilled in designing and implementing responsive, user-focused web applications using modern technologies such as React, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, and Next.js. Committed to writing clean, maintainable code and delivering high-performance, intuitive user interfaces. Currently seeking an internship opportunity to apply and expand my technical skills in a real-world development environment."
+},
+"skills":{
+    
+  "programmingLanguages": [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
+    "C++",
+    "SQL",
+    "HTML5",
+    "CSS3"
+  ],
+  "csFundamentals": [
+    "Object-Oriented Programming (OOP)",
+    "Data Structures",
+    "Algorithms",
+    "Operating Systems",
+    "Databases",
+    "Computer Networks"
+  ],
+  "frontEndDevelopment": [
+    "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "Responsive & Mobile-First Design",
+    "Component-Based Architecture",
+    "Cross-Browser Compatibility"
+  ],
+  "backEndDevelopment": [
+    "Node.js",
+    "Express.js",
+    "RESTful APIs",
+    "Authentication & Authorization",
+    "JWT",
+    "Redis",
+    "Server-Side Rendering",
+    "MVC Pattern",
+    "API Design"
+  ],
+  "databases": [
+    "MongoDB",
+    "MySQL",
+    "SQLite",
+    "Database Modeling"
+  ],
+  "toolsAndDevOps": [
+    "Git",
+    "GitHub",
+    "Docker",
+    "Postman",
+    "VS Code",
+    "Vercel",
+    "Railway",
+    "CI/CD Pipelines"
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Communication",
+    "Teamwork",
+    "Time Management",
+    "Adaptability",
+    "Fast Learner",
+    "Critical Thinking"
+  ]
+
+
+},
+"projects":[
+  {
+    "title": "E-Commerce Full Stack Website",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "date": "04/2025",
+    "description": [
+      "Built a full-featured e-commerce platform featuring admin product management and a dynamic shopping cart.",
+      "Implemented secure user authentication and role-based access control with encrypted passwords and session management.",
+      "Developed scalable RESTful API endpoints for handling products, orders, and user profiles.",
+      "Designed a responsive, intuitive user interface using Tailwind CSS for seamless cross-device experience.",
+      "Launched an admin dashboard to simplify product and order oversight."
+    ],
+    "github": "https://github.com/Abdoosama-0/ecommerce-platform",
+    "liveDemo": "https://ecommerce-platform"
+  },
+  {
+    "title": "Social Media API",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React",
+      "Next.js",
+      "JWT",
+      "Redis",
+      "Docker"
+    ],
+    "date": "01/2025",
+    "description": [
+      "Developed a scalable backend system for a social media platform with support for posts, likes, comments, and user profiles.",
+      "Implemented secure JWT-based authentication and role-based access control for users and administrators.",
+      "Integrated Cloudinary for optimized image uploads and storage within posts.",
+      "Built admin-specific endpoints to manage users and handle reported content."
+    ],
+    "github": "https://github.com/Abdoosama-0/SocialNet-API",
+    "apiDocs": "https://postman.com/..."
+  },
+  {
+    "title": "Movie Details Site",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "description": [
+      "Developed a dynamic platform for browsing movie data, including trailers, cast details, ratings, and posters retrieved from a live API.",
+      "Integrated external API to display currently playing movies in real-time on the homepage.",
+      "Implemented a responsive search feature to allow users to locate specific titles efficiently.",
+      "Designed a fully responsive and accessible UI using Tailwind CSS for optimal cross-device experience.",
+      "Calculated and displayed real-time average movie ratings to support informed viewing choices."
+    ],
+    "github": "https://github.com/Abdoosama-0/MovieInfoSite",
+    "liveDemo": "https://movie-info-site"
+  }
+]
+,"experince":[
+  {
+    "position": "Full-Stack Developer (Self-Initiated)",
+    "company": "Personal Full-Stack Development Projects",
+    "location": "Remote",
+    "startDate": "12/2024",
+    "endDate": "Present",
+    "description": [
+      "Built several web applications, most notably: a full-stack e-commerce platform, a front-end movie information website integrated with the TMDB API, and a back-end RESTful social media API — all developed through independent learning and hands-on practice.",
+      "Applied modern technologies such as Next.js, React, Node.js, Express, MongoDB, Tailwind CSS, TypeScript, and Redis to create high-performance solutions.",
+      "Managed the complete development lifecycle, including planning, UI/UX design, implementation, testing, and deployment using platforms like Vercel and Railway."
+    ]
+  }
+],
+"education":  {
+    "institution": "Arab Open University",
+    "degree": "Bachelor of Computer Science",
+    "gpa": "3.54 / 4.0",
+    "grade": "B+",
+    "location": "El Shorouk, Cairo, Egypt",
+    "expectedGraduation": "February 2027"
+  }
+  ,"languages":[
+  {
+    "language": "English",
+    "proficiency": "Professional Working Proficiency"
+  },
+  {
+    "language": "Arabic",
+    "proficiency": "Native or Bilingual Proficiency"
+  }]
+
+
+}
