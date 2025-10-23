@@ -50,6 +50,7 @@ const Nav = () => {
     { id: "experience", label: "Experience" },
     { id: "education", label: "Education" },
     { id: "languages", label: "Languages" },
+    { id: "contact", label: "contact" },
   ];
 
   return (

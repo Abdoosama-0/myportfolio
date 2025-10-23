@@ -2,73 +2,51 @@
 "summary":{
   "body": "Motivated Computer Science student and entry-level Full-Stack Developer with a solid programming foundation gained through intensive academic training. Skilled in designing and implementing responsive, user-focused web applications using modern technologies such as React, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, and Next.js. Committed to writing clean, maintainable code and delivering high-performance, intuitive user interfaces. Currently seeking an internship opportunity to apply and expand my technical skills in a real-world development environment."
 },
-"skills":{
+"skills": [
+  { "skill": "JavaScript", "pic": "https://img.icons8.com/color/100/javascript.png" },
+  { "skill": "TypeScript", "pic": "https://img.icons8.com/color/100/typescript.png" },
+ 
+  { "skill": "SQL", "pic": "https://img.icons8.com/ios-filled/100/database.png" },
+  { "skill": "HTML5", "pic": "https://img.icons8.com/color/100/html-5.png" },
+  { "skill": "CSS3", "pic": "https://img.icons8.com/color/100/css3.png" },
+
+
+
+
+
+
+  { "skill": "React.js", "pic": "https://img.icons8.com/color/100/react-native.png" },
+  { "skill": "Next.js", "pic": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" },
+  { "skill": "Tailwind CSS", "pic": "https://img.icons8.com/color/100/tailwindcss.png" },
+
+
+  { "skill": "Node.js", "pic": "https://img.icons8.com/color/100/nodejs.png" },
+  { "skill": "Express.js", "pic": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
+
+
+  { "skill": "Redis", "pic": "https://img.icons8.com/color/100/redis.png" },
+
+
+
+  { "skill": "MongoDB", "pic": "https://img.icons8.com/color/100/mongodb.png" },
+  { "skill": "MySQL", "pic": "https://img.icons8.com/color/100/mysql-logo.png" },
+
+
+
+  { "skill": "Git", "pic": "https://img.icons8.com/color/100/git.png" },
+  { "skill": "GitHub", "pic": "https://img.icons8.com/material-outlined/100/github.png" },
+  { "skill": "Docker", "pic": "https://img.icons8.com/color/100/docker.png" },
+  { "skill": "Postman", "pic": "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" },  
+ 
+  { "skill": "CI/CD Pipelines", "pic": "https://img.icons8.com/?size=100&id=BejoiOeRfYSo&format=png&color=000000" }
+
+]
+
     
-  "programmingLanguages": [
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "Java",
-    "C++",
-    "SQL",
-    "HTML5",
-    "CSS3"
-  ],
-  "csFundamentals": [
-    "Object-Oriented Programming (OOP)",
-    "Data Structures",
-    "Algorithms",
-    "Operating Systems",
-    "Databases",
-    "Computer Networks"
-  ],
-  "frontEndDevelopment": [
-    "React.js",
-    "Next.js",
-    "Tailwind CSS",
-    "Responsive & Mobile-First Design",
-    "Component-Based Architecture",
-    "Cross-Browser Compatibility"
-  ],
-  "backEndDevelopment": [
-    "Node.js",
-    "Express.js",
-    "RESTful APIs",
-    "Authentication & Authorization",
-    "JWT",
-    "Redis",
-    "Server-Side Rendering",
-    "MVC Pattern",
-    "API Design"
-  ],
-  "databases": [
-    "MongoDB",
-    "MySQL",
-    "SQLite",
-    "Database Modeling"
-  ],
-  "toolsAndDevOps": [
-    "Git",
-    "GitHub",
-    "Docker",
-    "Postman",
-    "VS Code",
-    "Vercel",
-    "Railway",
-    "CI/CD Pipelines"
-  ],
-  "softSkills": [
-    "Problem Solving",
-    "Communication",
-    "Teamwork",
-    "Time Management",
-    "Adaptability",
-    "Fast Learner",
-    "Critical Thinking"
-  ]
+ 
 
 
-},
+,
 "projects":[
   {
     "title": "E-Commerce Full Stack Website",
@@ -90,7 +68,8 @@
       "Launched an admin dashboard to simplify product and order oversight."
     ],
     "github": "https://github.com/Abdoosama-0/ecommerce-platform",
-    "liveDemo": "https://ecommerce-platform"
+    "liveDemo": "https://ecommerce-platform",
+    "pic":"https://i.postimg.cc/RCjRM8ft/Screenshot-2025-10-23-195255.png"
   },
   {
     "title": "Social Media API",
@@ -112,10 +91,12 @@
       "Built admin-specific endpoints to manage users and handle reported content."
     ],
     "github": "https://github.com/Abdoosama-0/SocialNet-API",
-    "apiDocs": "https://postman.com/..."
+    "liveDemo": "https://postman.com/...",
+    "pic":"https://i.postimg.cc/QC6FvzYC/Screenshot-2025-06-14-191218.png"
   },
   {
     "title": "Movie Details Site",
+    "date": "01/2025",
     "technologies": [
       "Next.js",
       "React",
@@ -130,7 +111,8 @@
       "Calculated and displayed real-time average movie ratings to support informed viewing choices."
     ],
     "github": "https://github.com/Abdoosama-0/MovieInfoSite",
-    "liveDemo": "https://movie-info-site"
+    "liveDemo": "https://movie-info-site",
+    "pic":"https://i.postimg.cc/QC6FvzYC/Screenshot-2025-06-14-191218.png"
   }
 ]
 ,"experince":[
