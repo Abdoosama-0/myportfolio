@@ -1,4 +1,12 @@
 {
+"contacts":{
+  "email": "abdalrhman.osama.mostafa@gmail.com",
+  "phone": "01553980055",
+  "linkedin": "https://www.linkedin.com/in/abdelrhman-osama-mostafa-shawky-15417a344",
+  "github": "https://github.com/Abdoosama-0"
+
+
+},
 "summary":{
   "body": "Motivated Computer Science student and entry-level Full-Stack Developer with a solid programming foundation gained through intensive academic training. Skilled in designing and implementing responsive, user-focused web applications using modern technologies such as React, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, and Next.js. Committed to writing clean, maintainable code and delivering high-performance, intuitive user interfaces. Currently seeking an internship opportunity to apply and expand my technical skills in a real-world development environment."
 },
