@@ -20,7 +20,7 @@ const Summary = ({summary }:SummaryProps) => {
         >
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-indigo-100 p-12">
              <h1 className="text-6xl font-extrabold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-  {lang === "arabic" ? "👋مرحباً، أنا عبدو أسامة " : "Hi, I'm Abdo Osama 👋"}
+  {lang === "arabic" ? "👋 مرحباً، أنا عبدالرحمن أسامه" : "Hi, I'm Abdelrhman Osama 👋"}
 
 </h1>
 

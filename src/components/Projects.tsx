@@ -107,11 +107,11 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
             </motion.div>
         ))}
    <button
-  onClick={() => window.open("https://github.com/Abdoosama-0", "_blank")}
+  onClick={() => window.open("https://github.com/Abdoosama-0?tab=repositories", "_blank")}
   className="mx-auto flex items-center w-fit justify-center gap-2 rounded-2xl cursor-pointer bg-gradient-to-r from-purple-700 to-indigo-600 px-4 py-2 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
 >
   <IoLogoGithub className="text-xl" />
-  {lang === "arabic" ?  <span> المزيد من المشاريع على github الخاص بى</span>  :   <span>More projects on my GitHub</span>}
+  {lang === "arabic" ?  <span> المزيد من المشاريع على github </span>  :   <span>More projects on my GitHub</span>}
 </button>
 
       </div>

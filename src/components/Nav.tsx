@@ -4,8 +4,10 @@ import { useState, useEffect, useRef, use } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useLangStore } from "@/store/useLangStore";
 
 const Nav = () => {
+    const { lang } = useLangStore();
   const [storedLang, setStoredLang] = useState<string>("english");  
      useEffect(() => { 
      
@@ -64,6 +66,15 @@ const Nav = () => {
     { id: "languages", label: "Languages" },
     { id: "contact", label: "contact" },
   ];
+    const sectionsAR = [
+    { id: "summary", label: "ملخص" },
+    { id: "skills", label: "مهارات" },
+    { id: "projects", label: "مشاريع" },
+    { id: "experience", label: "خبرات" },
+    { id: "education", label: "تعليم" },
+    { id: "languages", label: "لغات" },
+    { id: "contact", label: "تواصل" },
+  ];
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-md z-50">
@@ -78,7 +89,8 @@ const Nav = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-5">
-          {sections.map((section) => (
+
+          {(lang === "arabic" ? sectionsAR : sections).map((section) => (
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
