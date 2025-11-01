@@ -1,3 +1,4 @@
+import { useLangStore } from "@/store/useLangStore";
 import { motion } from "framer-motion"
 
 type EducationData = {
@@ -14,6 +15,7 @@ type EducationProps = {
 };
 
 const Education = ({ education }: EducationProps) => {
+    const { lang } = useLangStore();
   return (
     <motion.section
       id="education"
@@ -23,7 +25,7 @@ const Education = ({ education }: EducationProps) => {
       className="max-w-5xl mx-auto"
     >
       <h2 className="text-4xl font-bold mb-12 text-indigo-600 flex items-center gap-3">
-        🎓 Education
+       {lang === "arabic" ?  <span> 🎓التعليم </span>  :   <span>  🎓 Education </span>}
       </h2>
       <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-indigo-100 p-8 hover:shadow-2xl transition-all duration-300">
         <h3 className="text-2xl font-bold text-gray-800 mb-4">{education.institution}</h3>

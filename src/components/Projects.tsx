@@ -1,6 +1,8 @@
 "use client";
 
+import { useLangStore } from "@/store/useLangStore";
 import { motion } from "framer-motion";
+import { IoLogoGithub } from "react-icons/io";
 
 interface Project {
   title: string;
@@ -17,6 +19,7 @@ interface ProjectsProps {
 }
 
 const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+     const { lang } = useLangStore();
   return (
     <section className="max-w-6xl mx-auto" id="projects">
       <motion.h2
@@ -26,7 +29,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        💻 Projects
+            {lang === "arabic" ?  <span> 💻مشاريع حقيقية </span>  :   <span>💻 real world projects</span>}
       </motion.h2>
 
       <div className="grid grid-cols-1  gap-8">
@@ -103,6 +106,14 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
               </div>
             </motion.div>
         ))}
+   <button
+  onClick={() => window.open("https://github.com/Abdoosama-0", "_blank")}
+  className="mx-auto flex items-center w-fit justify-center gap-2 rounded-2xl cursor-pointer bg-gradient-to-r from-purple-700 to-indigo-600 px-4 py-2 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+>
+  <IoLogoGithub className="text-xl" />
+  {lang === "arabic" ?  <span> المزيد من المشاريع على github الخاص بى</span>  :   <span>More projects on my GitHub</span>}
+</button>
+
       </div>
     </section>
   );

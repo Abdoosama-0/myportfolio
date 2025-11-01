@@ -1,9 +1,21 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, use } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Nav = () => {
+  const [storedLang, setStoredLang] = useState<string>("english");  
+     useEffect(() => { 
+     
+        setStoredLang(localStorage.getItem("language") || "english") }
+        , []);
+  const changeLanguage = (lang: string) =>{
+ 
+    localStorage.setItem("language", lang);
+    window.location.reload();
+  }
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -75,7 +87,32 @@ const Nav = () => {
               {section.label}
             </button>
           ))}
+
         </div>
+<div className="flex justify-between items-center space-x-4">
+  <a href="https://github.com/Abdoosama-0" target="_blank" rel="noopener noreferrer">
+    <FaGithub className="text-2xl hover:text-purple-900 cursor-pointer" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/abdelrhman-osama-mostafa-shawky-15417a344/" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin className="text-2xl hover:text-purple-900 cursor-pointer" />
+  </a>
+
+  <a href="mailto:abdalrhman.osama.mostafa@gmail.com">
+    <MdEmail className="text-2xl hover:text-purple-900 cursor-pointer" />
+  </a>
+</div>
+<select
+  id="lang"
+  name="lang"
+  value={storedLang}
+  onChange={(e) => changeLanguage(e.target.value)}
+  className=" w-fit  px-2 py-1 bg-white border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-gray-700 text-sm font-medium transition-all duration-200 cursor-pointer hover:border-indigo-400 hover:shadow-md"
+>
+  <option value="arabic">Arabic</option>
+  <option value="english">English</option>
+</select>
+
 
         {/* Mobile Menu Button */}
         <button

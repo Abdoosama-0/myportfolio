@@ -1,0 +1,131 @@
+{
+  "contacts": {
+    "email": "abdalrhman.osama.mostafa@gmail.com",
+    "phone": "01553980055",
+    "linkedin": "https://www.linkedin.com/in/abdelrhman-osama-mostafa-shawky-15417a344",
+    "github": "https://github.com/Abdoosama-0"
+  },
+  "summary": {
+    "body": "طالب علوم حاسب متحمس ومطور Full-Stack مبتدئ يمتلك أساسًا قويًا في البرمجة من خلال التدريب الأكاديمي المكثف. ماهر في تصميم وتنفيذ تطبيقات ويب تفاعلية وسريعة الاستجابة باستخدام تقنيات حديثة مثل React وNode.js وExpress.js وMongoDB وTypeScript وTailwind CSS وNext.js. ملتزم بكتابة كود نظيف وسهل الصيانة وتقديم واجهات استخدام عالية الأداء وسهلة الاستخدام. أبحث حاليًا عن فرصة تدريب لاكتساب خبرة عملية وتطوير مهاراتي التقنية في بيئة تطوير حقيقية."
+  },
+  "skills": [
+    { "skill": "JavaScript", "pic": "https://img.icons8.com/color/100/javascript.png" },
+    { "skill": "TypeScript", "pic": "https://img.icons8.com/color/100/typescript.png" },
+    { "skill": "SQL", "pic": "https://img.icons8.com/ios-filled/100/database.png" },
+    { "skill": "HTML5", "pic": "https://img.icons8.com/color/100/html-5.png" },
+    { "skill": "CSS3", "pic": "https://img.icons8.com/color/100/css3.png" },
+    { "skill": "React.js", "pic": "https://img.icons8.com/color/100/react-native.png" },
+    { "skill": "Next.js", "pic": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" },
+    { "skill": "Tailwind CSS", "pic": "https://img.icons8.com/color/100/tailwindcss.png" },
+    { "skill": "Node.js", "pic": "https://img.icons8.com/color/100/nodejs.png" },
+    { "skill": "Express.js", "pic": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
+    { "skill": "Redis", "pic": "https://img.icons8.com/color/100/redis.png" },
+    { "skill": "MongoDB", "pic": "https://img.icons8.com/color/100/mongodb.png" },
+    { "skill": "MySQL", "pic": "https://img.icons8.com/color/100/mysql-logo.png" },
+    { "skill": "Git", "pic": "https://img.icons8.com/color/100/git.png" },
+    { "skill": "GitHub", "pic": "https://img.icons8.com/material-outlined/100/github.png" },
+    { "skill": "Docker", "pic": "https://img.icons8.com/color/100/docker.png" },
+    { "skill": "Postman", "pic": "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" },
+    { "skill": "CI/CD Pipelines", "pic": "https://img.icons8.com/?size=100&id=BejoiOeRfYSo&format=png&color=000000" }
+  ],
+  "projects": [
+    {
+      "title": "موقع تجارة إلكترونية متكامل (Full Stack)",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "date": "04/2025",
+      "description": [
+        "بناء منصة تجارة إلكترونية متكاملة تشمل إدارة المنتجات من خلال لوحة تحكم للمشرف وسلة مشتريات ديناميكية.",
+        "تنفيذ نظام تسجيل دخول آمن مع صلاحيات مستخدمين مختلفة وتشفير كلمات المرور وإدارة الجلسات.",
+        "تطوير واجهات API قابلة للتوسع لإدارة المنتجات والطلبات وملفات المستخدمين.",
+        "تصميم واجهة مستخدم تفاعلية وسريعة الاستجابة باستخدام Tailwind CSS لتجربة مثالية على جميع الأجهزة.",
+        "إطلاق لوحة تحكم خاصة بالإدارة لتسهيل متابعة الطلبات وإدارة المحتوى."
+      ],
+      "github": "https://github.com/Abdoosama-0/ecommerce-platform",
+      "liveDemo": "https://ecommerce-platform",
+      "pic": "https://i.postimg.cc/RCjRM8ft/Screenshot-2025-10-23-195255.png"
+    },
+    {
+      "title": "واجهة برمجة تطبيقات لموقع تواصل اجتماعي (Social Media API)",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React",
+        "Next.js",
+        "JWT",
+        "Redis",
+        "Docker"
+      ],
+      "date": "01/2025",
+      "description": [
+        "تطوير نظام خلفي قابل للتوسع لمنصة تواصل اجتماعي يدعم المنشورات، الإعجابات، التعليقات، وملفات المستخدمين.",
+        "تطبيق نظام مصادقة آمن باستخدام JWT مع تحكم في الصلاحيات للمستخدمين والمديرين.",
+        "دمج Cloudinary لرفع الصور وتخزينها بشكل محسن داخل المنشورات.",
+        "إنشاء واجهات خاصة بالمشرفين لإدارة المستخدمين والتعامل مع المحتوى المُبلغ عنه."
+      ],
+      "github": "https://github.com/Abdoosama-0/SocialNet-API",
+      "liveDemo": "https://www.postman.com/goatme/workspace/my-projects/collection/40780206-8a672703-9ffa-45ca-97ce-f251f00c8c2e?action=share&creator=40780206&active-environment=40780206-58867db8-c61d-4ccf-b74c-741a79da59ee",
+      "pic": "https://i.postimg.cc/rmtfww01/Screenshot-2025-10-25-012204.png"
+    },
+    {
+      "title": "موقع تفاصيل الأفلام",
+      "date": "01/2025",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "description": [
+        "تطوير موقع تفاعلي لعرض تفاصيل الأفلام مثل الممثلين، التقييمات، التريلرات، والبوسترات بالاعتماد على API مباشر.",
+        "دمج واجهة API خارجية لعرض أحدث الأفلام المعروضة حاليًا في الصفحة الرئيسية.",
+        "تطبيق ميزة بحث سريعة لتسهيل الوصول إلى الأفلام المطلوبة.",
+        "تصميم واجهة مستخدم متجاوبة بالكامل باستخدام Tailwind CSS لتجربة مريحة على كل الأجهزة.",
+        "عرض التقييم المتوسط للأفلام في الوقت الحقيقي لمساعدة المستخدم في اختيار الفيلم الأنسب."
+      ],
+      "github": "https://github.com/Abdoosama-0/MovieInfoSite",
+      "liveDemo": "https://movie-info-site",
+      "pic": "https://i.postimg.cc/02G8r3Wg/Screenshot-2025-10-24-112547.png"
+    }
+  ],
+  "experience": [
+    {
+      "position": "مطور Full-Stack (مشاريع شخصية)",
+      "company": "مشاريع تطوير ويب ذاتية",
+      "location": "عن بُعد",
+      "startDate": "12/2024",
+      "endDate": "حتى الآن",
+      "description": [
+        "بناء عدة تطبيقات ويب من بينها: منصة تجارة إلكترونية متكاملة، موقع لعرض معلومات الأفلام باستخدام TMDB API، وواجهة برمجة تطبيقات لشبكة تواصل اجتماعي — تم تنفيذها من خلال التعلم الذاتي والتطبيق العملي.",
+        "تطبيق أحدث التقنيات مثل Next.js وReact وNode.js وExpress وMongoDB وTailwind CSS وTypeScript وRedis لتقديم حلول عالية الأداء.",
+        "إدارة دورة التطوير كاملة من التخطيط والتصميم إلى التنفيذ والاختبار والنشر باستخدام منصات مثل Vercel وRailway."
+      ]
+    }
+  ],
+  "education": {
+    "institution": "الجامعة العربية المفتوحة",
+    "degree": "بكالوريوس علوم الحاسب",
+    "gpa": "3.54 / 4.0",
+    "grade": "جيد جدًا (B+)",
+    "location": "الشروق، القاهرة، مصر",
+    "expectedGraduation": "فبراير 2027"
+  },
+  "languages": [
+    {
+      "language": "الإنجليزية",
+      "proficiency": "إجادة مهنية"
+    },
+    {
+      "language": "العربية",
+      "proficiency": "اللغة الأم"
+    }
+  ]
+}

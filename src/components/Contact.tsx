@@ -1,5 +1,6 @@
 "use client";
 
+import { useLangStore } from "@/store/useLangStore";
 import { useState, ChangeEvent, FormEvent } from "react";
 
 type FormData = {
@@ -56,11 +57,12 @@ export default function ContactForm() {
       setIsSubmitting(false);
     }
   };
+   const { lang } = useLangStore();
 
   return (
     <div id="contact" className="max-w-2xl mx-auto">
       <h2 className="text-4xl font-bold mb-12 text-indigo-600 text-center flex items-center justify-center gap-3">
-        📩 Contact Me
+       {lang === "arabic" ?  <span> 📩تواصل معى </span>  :   <span>     📩 Contact Me  </span>}
       </h2>
       
       <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-indigo-100 p-8">

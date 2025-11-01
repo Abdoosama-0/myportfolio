@@ -1,3 +1,4 @@
+import { useLangStore } from '@/store/useLangStore';
 import { motion } from 'framer-motion'
 
 type Language = {
@@ -10,6 +11,7 @@ type LanguagesProps = {
 };
 
 const Languages = ({ languages }: LanguagesProps) => {
+   const { lang } = useLangStore();
   return (
     <motion.section
       id="languages"
@@ -19,7 +21,7 @@ const Languages = ({ languages }: LanguagesProps) => {
       className="max-w-5xl mx-auto"
     >
       <h2 className="text-4xl font-bold mb-12 text-indigo-600 flex items-center gap-3">
-        🌍 Languages
+        {lang === "arabic" ?  <span> 🌍اللغات</span>  :   <span>  🌍 Languages  </span>}
       </h2>
       <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-indigo-100 p-8 hover:shadow-2xl transition-all duration-300">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -1,3 +1,4 @@
+import { useLangStore } from '@/store/useLangStore';
 import { motion } from 'framer-motion'
 
 type Skill = {
@@ -10,6 +11,7 @@ type SkillsProps = {
 };
 
 const Skills = ({ skills }: SkillsProps) => {
+   const { lang } = useLangStore();
   return (
     <section className="max-w-6xl mx-auto" id="skills">
       <motion.h2
@@ -19,7 +21,7 @@ const Skills = ({ skills }: SkillsProps) => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        🧠 Skills
+         {lang === "arabic" ?  <span> 🧠المهارات </span>  :   <span>🧠 Skills</span>}
       </motion.h2>
 
       <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-indigo-100 p-8">
